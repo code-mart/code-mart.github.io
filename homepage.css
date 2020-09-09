@@ -1,8 +1,33 @@
 body {
-    background-image: url("/background.jpeg");
+    background-image: url("./background.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('AlexBrush-Regular.woff2') format('woff2'),
+        url('AlexBrush-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1 {
+    font-family: 'Alex Brush';
+    color:  white;
+    font-size: 15vh;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
